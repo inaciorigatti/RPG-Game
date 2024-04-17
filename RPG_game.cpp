@@ -33,11 +33,6 @@ int main()
             cout<<"Resposta inválida.";
     }
     
-      switch(escolha3){
-          case 3:
-                cout<<"Você tem 3 opções de caminhos a seguir:"<<endl<<"1. Desbravar a mata."<<endl<<"2. Trilhar uma espécie de caminho que está no chão."<<endl<<"3. Dar uma volta na costa da ilha."<<endl;
-                cin>>escolha1;
-            }
             
     
     switch(escolha2){
@@ -76,9 +71,13 @@ int main()
             if(enigma=="silencio"){
                 sleep(2);
                 cout<<"Com a última revelação decifrada, a porta majestosa se abriu, revelando o tesouro cintilante. Em um momento de triunfo e admiração, o explorador alcançou o objetivo de sua busca. Assim, a jornada na Ilha da Aurora Silenciosa alcançou seu glorioso desfecho, deixando para trás uma lenda que ecoará através dos tempos."<<endl;
+            
+                 break;
             }else{
                 sleep(2);
                 cout<<"Em um instante de descuido, uma armadilha antiga e mortal foi ativada, selando o destino do explorador. Seu sacrifício ecoou pelas câmaras escuras da ilha, uma lembrança sombria da perigosa busca pelo tesouro perdido. Seu legado, agora, vive como parte das histórias contadas sobre a Ilha da Aurora Silenciosa...";
+            
+                 break;
             }
             
             case 3:
